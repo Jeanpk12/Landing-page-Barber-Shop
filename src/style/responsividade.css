@@ -1,0 +1,104 @@
+@media(max-width: 991px){
+    .secao-com-texto{
+        padding: 153px 25px;
+    }
+
+    .secao-com-texto p, .secao-com-texto .onde-estamos p{
+        width: 100%;
+    }
+}
+
+@media(max-width: 800px){
+    .painel {
+        border-radius: 0;
+        height: 500px;
+    }
+
+    .ladrilho .grande, .ladrilho .medio{
+        width: 100%;
+    }
+
+    .ladrilho .pequeno, .ladrilho .barba{
+        width: 50%;
+    }
+
+    .contato .texto{
+       position: relative;
+       text-align: center;
+       top: 50%;
+       left: 0; 
+       transform: translateY(-50%);
+    }
+
+    .contato address{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .contato h2{
+        font-size: 30px;
+
+    }
+}
+
+@media(max-width: 500px){
+
+    .cabecalho .logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .cabecalho nav ul li{
+        display: block;
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    .painel {
+        border-radius: 0;
+        height: 400px;
+    }
+
+    .painel h2{
+        font-size: 2.5rem;
+    }
+
+    .secao-com-texto h2{
+        font-size: 3rem;
+    }
+
+    .secao-com-texto p, .secao-com-texto .onde-estamos p{
+        font-size: 2rem;
+    }
+
+    .ladrilho .pequeno, .ladrilho .barba{
+        width: 100%;
+    }
+
+    .rodape .logo-rodape{
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .rodape ul{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rodape ul li{
+        display: block;
+    }
+   
+}
